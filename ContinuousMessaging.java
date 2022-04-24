@@ -1,4 +1,7 @@
 package com.Readfiles_threads;
+/**
+ * @author ABDELHADI MOUZAFIR 
+ */
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -109,7 +112,8 @@ class Servers extends Thread {
                     dataOutputStream.flush();
 
                     // ? la focntion qui fait tout
-                    receiveFile("C:\\Users\\Abdelhadi\\Downloads\\openScreen.png");
+                    // ? il y aura pas un problème , tout letemps on aura qu'une seule image grâce  à l'overwriting .
+                    receiveFile("C:\\Users\\Abdelhadi\\Downloads\\openScreen.png"); //************************************ CHANGER LE LIEN
 
                     dataInputStream.close();
                     dataOutputStream.close();
@@ -214,7 +218,7 @@ class Cliient extends Thread {
             while ((System.currentTimeMillis() - currentTimestamp) < (long) timeLimit * 60 * 1000) {
 
                 // ? la focntion qui fait tout
-                sendFile("C:\\Users\\Abdelhadi\\Downloads\\pppp" + "a" + ".png");
+                sendFile("C:\\Users\\Abdelhadi\\Downloads\\pppp" + "a" + ".png"); //************************************ CHANGER LE LIEN
                 getNextFreq();
                 // ! pour évier toute inconvénientce
                 Thread.sleep(100);
