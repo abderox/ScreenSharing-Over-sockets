@@ -4,7 +4,7 @@
 ### set up 
   * change links to files in the program in both functions ; receivefile and senfile 
   * the port is 5000 you can change it 
-  * The host is "localhost" , you may changeit ro any other local ip of any machine 
+  * The host is "localhost" , you may change it to any other local ip of any machine 
   
 ### Author 
   * Abdelhadi Mouzafir 
