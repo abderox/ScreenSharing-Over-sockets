@@ -1,4 +1,4 @@
-EN
+ENGLISH
 
 ### ScreenSharing-Over-sockets
   * Screen sharing Over sockets using java language 
@@ -14,7 +14,7 @@ EN
   * MAJOR IRISI 2 
 
 
-FR 
+FRENCH
 
 ### Partage d'écran sur sockets
    * Partage d'écran sur les sockets en utilisant le langage java
@@ -25,6 +25,6 @@ FR
    * L'hôte est "localhost", vous pouvez le changer pour n'importe quelle autre adresse IP locale de n'importe quelle machine
 
 ### Auteur
-   *Abdelhadi Mouzafir
+   * Abdelhadi Mouzafir
    * année scolaire 2021-2022
    * IRISI MAJEUR 2
